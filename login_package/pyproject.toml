@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "login-package"
+version = "0.1.0"
+description = ""
+authors = ["Vasu Mavani <vasu.mavani@thirdray.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.1.1"
+selenium = "^4.19.0"
+flask = "^3.0.2"
+wtforms = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
